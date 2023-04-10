@@ -1,0 +1,177 @@
+.corpoPrincipal {
+    background: rgb(79, 2, 157);
+    background-image: linear-gradient(180deg, rgba(79, 2, 157, 1) 0%, rgba(3, 132, 49, 1) 100%);
+    background-size: contain;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+
+.logo {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.botao2>li>a {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 500px;
+    margin: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+h2 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h5 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+input {
+    margin: auto;
+    display: block;
+    width: 603px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+h3 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+/*Navegação*/
+.div2 {
+    display: flex;
+    margin: 20px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.space-around {
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    /*Centralizar horizontalmente */
+    justify-content: space-around;
+}
+
+.space-around>img {
+    width: 300px;
+}
+
+.planos {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.preços {
+    font-size: larger;
+}
+
+.div3 {
+    display: flex;
+    margin: 20px;
+}
+
+.div3>div {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.div3texto {
+    font-size: 18px;
+    padding: 30px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.star {
+    margin: auto;
+    display: block;
+    width: 900px;
+}
+
+/*Rodapé*/
+footer {
+    color: white;
+    border-top: 2px solid white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    font-size: smaller;
+}
+
+.infos {
+    margin-top: 20px;
+    display: flex;
+}
+
+.infos ul {
+    margin-left: 60px;
+}
+
+footer .social {
+    display: flex;
+    margin-bottom: 20px;
+    user-select: none;
+    cursor: pointer;
+}
+
+footer .social li {
+    margin-left: 20px;
+}
+
+footer .politicas {
+    margin-bottom: 20px;
+}
+
+footer .o {
+    font-size: 30px;
+}
+
+.politicas {
+    font-size: 10px;
+}
+
+.final {
+    font-size: 10px;
+}

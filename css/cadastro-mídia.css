@@ -1,0 +1,69 @@
+.corpoLogin {
+    background: rgb(79, 2, 157);
+    background-image: linear-gradient(180deg, rgba(79, 2, 157, 1) 0%, rgba(3, 132, 49, 1) 100%);
+    background-size: contain;
+}
+
+
+.logo {
+    margin: auto;
+    display: block;
+
+    width: 250px;
+    height: 50px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div {
+    text-align: center;
+}
+
+input {
+    width: 663px;
+    height: 70px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.titulo {
+    text-decoration: none;
+    margin: auto;
+    display: block;
+    text-align: center;
+    font-size: large;
+    color: black;
+    width: 100px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.entrar {
+    text-decoration: none;
+    margin: auto;
+    display: block;
+    text-align: center;
+    font-size: large;
+    color: black;
+    width: 100px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: white;
+}
+
+p{
+    text-decoration: none;
+    font-size: medium;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    width: 80px;
+    margin: auto;
+    display: block;
+}
