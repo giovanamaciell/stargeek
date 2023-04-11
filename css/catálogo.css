@@ -1,0 +1,130 @@
+
+.corpoPrincipal {
+    background: rgb(78, 4, 155);
+    background: linear-gradient(0deg, rgba(78, 4, 155, 1) 0%, rgba(40, 55, 83, 1) 17%, rgba(18, 84, 41, 1) 47%, rgba(18, 84, 41, 1) 62%, rgba(18, 84, 41, 1) 69%);
+    background-size: contain;
+}
+
+body {
+    margin: 20px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+
+.logo {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.procurar {
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 100px;
+    height: 20px;
+    margin: 20px;
+    padding: 0;
+}
+
+.botao2>li>img {
+    padding-left: 20px;
+    display: flex;
+    /*Centralizar horizontalmente */
+    justify-content: flex-end;
+}
+
+/*Inicio da pagina*/
+.inicio {
+    display: flex;
+    margin: 20px;
+}
+
+.inicio>div {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 50%;
+}
+
+.banner {
+    justify-content: end;
+    width: 900px;
+    
+}
+
+.titulogg {
+    width: 477px;
+}
+
+.assistir{
+    padding: 15px;
+    margin: 10px;
+}
+
+h2 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+h5 {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-size: small;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.assistir {
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+
+}
+
+/*CATÁLOGO*/
+.lançadostexto {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.lançados {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    overflow: scroll;
+}
+
+.lançados::-webkit-scrollbar {
+    display: none;
+}
+
+.conteudo {
+    width: 500px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 2px black;
+}
