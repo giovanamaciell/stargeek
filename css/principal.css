@@ -4,6 +4,13 @@
     background-size: contain;
 }
 
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+ }
+
 .cabecalho {
     display: flex;
     justify-content: space-between;
@@ -174,4 +181,13 @@ footer .o {
 
 .final {
     font-size: 10px;
+}
+
+@media (max-width:500px){
+  header{
+    flex-direction: column;
+  }
+  .pt1{
+    flex-direction: column;
+  }
 }

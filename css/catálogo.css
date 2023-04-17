@@ -1,4 +1,3 @@
-
 .corpoPrincipal {
     background: rgb(78, 4, 155);
     background: linear-gradient(0deg, rgba(78, 4, 155, 1) 0%, rgba(40, 55, 83, 1) 17%, rgba(18, 84, 41, 1) 47%, rgba(18, 84, 41, 1) 62%, rgba(18, 84, 41, 1) 69%);
@@ -15,6 +14,7 @@ body {
     align-items: center;
     height: 50px;
 }
+
 ul {
     display: flex;
 }
@@ -37,6 +37,11 @@ li {
     height: 20px;
     margin: 20px;
     padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 .botao2>li>img {
@@ -63,14 +68,14 @@ li {
 .banner {
     justify-content: end;
     width: 900px;
-    
+
 }
 
 .titulogg {
     width: 477px;
 }
 
-.assistir{
+.assistir {
     padding: 15px;
     margin: 10px;
 }
@@ -121,10 +126,269 @@ p {
     display: none;
 }
 
+.continuar {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    overflow: scroll;
+}
+
+.continuar::-webkit-scrollbar {
+    display: none;
+}
+
 .conteudo {
     width: 500px;
     height: 200px;
     margin: 10px;
     border-radius: 10px;
     box-shadow: 3px 3px 2px black;
+}
+
+/*GIFS*/
+
+.garota:hover {
+    content: url(../img/daisy.gif);
+}
+
+.office:hover {
+    content: url(../img/theofc.gif);
+}
+
+
+.oceans8:hover {
+    content: url(../img/oceans88.gif);
+}
+
+
+.derry:hover {
+    content: url(../img/derryy.gif);
+}
+
+
+.pitch:hover {
+    content: url(../img/fatamy.gif);
+}
+
+
+.broke:hover {
+    content: url(../img/brokegirls.gif);
+}
+
+
+.fleabag:hover {
+    content: url(../img/fleabagbible.gif);
+}
+
+
+.modern:hover {
+    content: url(../img/mofy.gif);
+}
+
+.b99:hover {
+    content: url(../img/b99.gif);
+}
+
+
+.friends:hover {
+    content: url(../img/friendsbb.gif);
+}
+
+.himym:hover {
+    content: url(../img/himym.gif);
+}
+
+
+.chris:hover {
+    content: url(../img/chriis.webp);
+}
+
+.maluco:hover {
+    content: url(../img/fresh.gif);
+}
+
+
+.patroa:hover {
+    content: url(../img/mywife.gif);
+}
+
+
+.raven:hover {
+    content: url(../img/ravenn.gif);
+}
+
+
+.hannah:hover {
+    content: url(../img/hannah.gif);
+}
+
+
+.familia:hover {
+    content: url(../img/familiaa.webp);
+}
+
+
+.clarencio:hover {
+    content: url(../img/clarencioo.gif);
+}
+
+
+.titas:hover {
+    content: url(../img/teentitansgo.gif);
+}
+
+.gumball:hover {
+    content: url(../img/awog.webp);
+}
+
+
+.gravitty:hover {
+    content: url(../img/stan.gif);
+}
+
+.universo:hover {
+    content: url(../img/stevenuniverse.gif);
+}
+
+
+.padrinhos:hover {
+    content: url(../img/odd.gif);
+}
+
+.extraordinario:hover {
+    content: url(../img/wonders2.gif);
+}
+
+
+.ultimo:hover {
+    content: url(../img/hicksaw.gif);
+}
+
+.estrelas:hover {
+    content: url(../img/thefault.gif);
+}
+
+
+.goldfinch:hover {
+    content: url(../img/the-goldfinch-tgf.gif);
+}
+
+
+.antes:hover {
+    content: url(../img/me-before-you.gif);
+}
+
+
+.django:hover {
+    content: url(../img/django.gif);
+}
+
+
+
+.paleblue:hover {
+    content: url(../img/palee.gif);
+}
+
+
+.psycho:hover {
+    content: url(../img/psychh.webp);
+}
+
+
+.dwd:hover {
+    content: url(../img/dwdarling.gif);
+}
+
+
+.seven:hover {
+    content: url(../img/brad.gif);
+}
+
+
+
+.knives:hover {
+    content: url(../img/knivesout.gif);
+}
+
+
+.glassonion:hover {
+    content: url(../img/glassonion.gif)
+}
+
+
+.blade:hover {
+    content: url(../img/bladejoe.gif);
+}
+
+
+.freeguy:hover {
+    content: url(../img/freee.gif);
+}
+
+.agente:hover {
+    content: url(../img/gray.gif);
+}
+
+
+.black:hover {
+    content: url(../img/black-adam-clap.gif);
+}
+
+.topgun:hover {
+    content: url(../img/maverick.gif);
+}
+
+
+.max:hover {
+    content: url(../img/madmaxx.webp);
+}
+
+
+.entrevista:hover {
+    content: url(../img/entrevista.gif);
+}
+
+
+.before:hover {
+    content: url(../img/jewish.gif);
+}
+
+.gentegrande:hover {
+    content: url(../img/gg.gif);
+}
+
+
+.branquelas:hover {
+    content: url(../img/whitechicks.gif);
+}
+
+/*rodapé*/
+footer .politicas {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+footer .o {
+    font-size: 10px;
+    text-align: center;
+    color: white;
+}
+
+.estrela {
+    font-size: 10px;
+    text-align: center;
+    color: white;
+}
+
+.politicas {
+    font-size: 10px;
+    text-align: center;
+    color: white;
+}
+
+.final {
+    font-size: 9px;
+    text-align: center;
+    color: white;
 }

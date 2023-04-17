@@ -1,0 +1,114 @@
+.corpoPrincipal {
+    background: rgb(78, 4, 155);
+    background: linear-gradient(180deg, rgba(78, 4, 155, 1) 0%, rgba(40, 55, 83, 1) 17%, rgba(18, 84, 41, 1) 47%, rgba(18, 84, 41, 1) 62%, rgba(18, 84, 41, 1) 69%);
+    background-size: contain;
+}
+
+body {
+    margin: 20px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+
+.logo {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/*NAVEGAÇÃO*/
+
+div {
+    text-align: center;
+}
+
+.enfeite {
+    margin-top: 50px;
+    margin: auto;
+    display: block;
+}
+
+input {
+    width: 550px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+/*CATÁLOGO*/
+.lançadostexto {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+}
+
+.lançados {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    overflow: scroll;
+}
+
+.lançados::-webkit-scrollbar {
+    display: none;
+}
+
+.continuar {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    overflow: scroll;
+}
+
+.continuar::-webkit-scrollbar {
+    display: none;
+}
+
+.conteudo {
+    width: 500px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 2px black;
+}
+
+/*rodapé*/
+footer .politicas {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+footer .o {
+    font-size: 10px;
+    text-align: center;
+    color: white;
+}
+p{
+    font-size: 10px;
+    text-align: center;
+    color: white;
+}
+.politicas {
+    font-size: 10px;
+    text-align: center;
+    color: white;
+}
+
+.final {
+    font-size: 9px;
+    text-align: center;
+    color: white;
+}
