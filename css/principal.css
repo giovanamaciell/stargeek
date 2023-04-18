@@ -4,12 +4,12 @@
     background-size: contain;
 }
 
- *{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     border: 0;
- }
+}
 
 .cabecalho {
     display: flex;
@@ -27,10 +27,10 @@ li {
 }
 
 .logo {
+    padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    width: 20px;
-    height: 20px;
+    width: 90px;
 }
 
 .botao2>li>a {
@@ -183,11 +183,17 @@ footer .o {
     font-size: 10px;
 }
 
-@media (max-width:500px){
-  header{
-    flex-direction: column;
-  }
-  .pt1{
-    flex-direction: column;
-  }
+@media (max-width:500px) {
+    header {
+        flex-direction: column;
+    }
+
+    .logo {
+        width: 90px;
+        justify-content: space-between;
+    }
+
+    .pt1 {
+        flex-direction: column;
+    }
 }
