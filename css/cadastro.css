@@ -25,11 +25,19 @@ div {
 input {
     margin: auto;
     display: block;
-    width: 663px;
-    height: 70px;
+    width: 550px;
+    height: 50px;
     border: 2px solid white;
     border-radius: 10px;
+}
 
+.entrar{
+    text-decoration: none;
+    color: white;
+}
+
+a {
+    
 }
 .entrar {
     text-decoration: none;

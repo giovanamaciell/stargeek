@@ -362,29 +362,30 @@ p {
     content: url(../img/whitechicks.gif);
 }
 
-.potter:hover{
+.potter:hover {
     content: url(../img/potterr.gif);
 }
 
-.caribe:hover{
+.caribe:hover {
     content: url(../img/pirates-des-caraibes-pirates-of-the-caribbean.gif);
 }
 
-.Twilight:hover{
+.Twilight:hover {
     content: url(../img/bella.gif);
 }
 
-.narnia:hover{
+.narnia:hover {
     content: url(../img/narniaa.gif);
 }
 
-.fast:hover{
+.fast:hover {
     content: url(../img/furious.gif);
 }
 
-.guardioes:hover{
+.guardioes:hover {
     content: url(../img/galaxy.gif);
 }
+
 /*rodapé*/
 footer .politicas {
     text-align: center;

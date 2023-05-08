@@ -84,6 +84,10 @@ input {
     box-shadow: 3px 3px 2px black;
 }
 
+.tlou:hover{
+    content: url(../img/joel.gif);
+}
+
 /*rodapé*/
 footer .politicas {
     text-align: center;
